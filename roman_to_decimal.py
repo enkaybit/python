@@ -26,3 +26,12 @@ def roman_to_decimal(roman_numeral):
             decimal_value += current_value
             
     return decimal_value
+
+# Prompt the user to input a Roman numeral string
+roman_numeral = input("Enter a Roman numeral string: ")
+
+# Convert the Roman numeral string to its corresponding decimal value
+decimal_value = roman_to_decimal(roman_numeral)
+
+# Output the result
+print("The decimal value of", roman_numeral, "is", decimal_value)
